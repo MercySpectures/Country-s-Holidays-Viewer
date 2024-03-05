@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Holiday Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="title">
+                <h1>Country Holiday Viewer</h1>
+            </div>
+            <div class="getValues">
+                <select name="countryList" id="countryList">
+                    <option value="Select Country">Select Country</option>
+                </select>
+                <button>Get Holidays</button>
+            </div>
+            <div class="holidayList">
+                <div class="holidayWrapper">
+                    <h3>Public Holidays</h3>
+                    <ul id="publicHolidayList"></ul>
+                </div>
+                <div class="holidayWrapper">
+                    <h3>Non Public Holidays</h3>
+                    <ul id="notPublicHolidayList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
